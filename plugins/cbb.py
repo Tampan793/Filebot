@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>🗣 Channel : @\n👁 Support Helps : @xH4X0Rx</b>",
+            text = f"<b>🗣 Channel : @painofwords\n👁 Support Helps : @xH4X0Rx</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
